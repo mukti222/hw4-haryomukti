@@ -4,7 +4,7 @@ function logika() {
   let angkaGanjil = [];
 
   for (let i = 0; i < 100; i++) {
-    let randomAngka = Math.floor(Math.random() * 100) + 1;
+    let randomAngka = Math.floor(Math.random() * 50) + 1;
     angkaRandom.push(randomAngka);
     if (randomAngka % 2 === 0) {
       angkaGenap.push(randomAngka);
