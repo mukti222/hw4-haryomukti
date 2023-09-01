@@ -20,7 +20,7 @@ function logika() {
 }logika();
 const { angkaRandom, angkaGenap, angkaGanjil } = logika();
 function angka50() {
-  console.log("array berisi 50 angka acak isi 1 - 100:");
+  console.log("array berisi 100 angka acak (isinya 1 - 50):");
   console.log(angkaRandom);
   console.log("");
 }
